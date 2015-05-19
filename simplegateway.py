@@ -18,7 +18,7 @@ class LLAPFB:
         self.port = "/dev/ttyAMA0"
         
         #Firebase details
-        self.FBApp = "https://blistering-heat-522.firebaseio.com"
+        self.FBApp = "https://yourapphere.firebaseio.com"
         self.FBAPIKey ="YOUR API KEY HERE"    #<<<YOUR FEED API KEY HERE
         self.FBPath = "/readings/xxyeto23"                  #<<<YOUR FEED NUMBER HERE
         self.FBConn = firebase.FirebaseApplication(self.FBApp, None)
