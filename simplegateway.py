@@ -1,7 +1,12 @@
 #!/usr/bin/env python
+""" 
+kode for å lese data fra Ciseco radio og skrive til Firebase
+koden er basert på kode fra Ciseco - takk til dem!
 
-# kode for å lese data fra Ciseco radio og skrive til Firebase
-# koden er basert på arbeid fra Ciseco - takk til dem!
+last ned LLAPSerial.py fra https://github.com/CisecoPlc/LLAPtoCOSM
+installer firebase fra https://pypi.python.org/pypi/python-firebase/1.2
+"""
+
 import sys, time, Queue
 import LLAPSerial
 from firebase import firebase
